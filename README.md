@@ -97,7 +97,7 @@ De asemenea suprascriem metoda *toString* pentru a afisa datele:
                 '}';
     }
 
-3. 4. Folosim clasa *UserRepository* care contine o lista de utilizatori si o metoda *addUser* care trateaza cazurile de utilizatori invalizi:
+3-4.  Folosim clasa *UserRepository* care contine o lista de utilizatori si o metoda *addUser* care trateaza cazurile de utilizatori invalizi:
 
     public void addUser(User user) throws InvalidUserDataException {
         if (user == null) {
